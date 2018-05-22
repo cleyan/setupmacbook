@@ -18,3 +18,9 @@ set -g fish_user_paths "/usr/local/opt/php@7.1/sbin" $fish_user_paths
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/usuario/carpeta/google-cloud-sdk/path.fish.inc' ]; if type source > /dev/null; source '/Users/usuario/carpeta/google-cloud-sdk/path.fish.inc'; else; . '/Users/usuario/carpeta/google-cloud-sdk/path.fish.inc'; end; end
 
+
+
+#instalar agnoster theme
+omf install agnoster
+omf theme agnoster
+
